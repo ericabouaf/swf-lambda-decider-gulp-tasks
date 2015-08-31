@@ -66,7 +66,7 @@ module.exports = {
     domain: 'mydomain',
     workflowId: uuid.v4(),
     workflowType: {
-      name: 'opinari-poll',
+      name: 'my-workflow-name',
       version: '1.0'
     },
     childPolicy: 'TERMINATE', /*'TERMINATE | REQUEST_CANCEL | ABANDON',*/
