@@ -1,0 +1,25 @@
+{
+  "name": "swf-lambda-decider-gulp-tasks",
+  "version": "1.0.0",
+  "description": "Gulp tasks to deploy SWF deciders on AWS lambda",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/neyric/swf-lambda-decider-gulp-tasks.git"
+  },
+  "keywords": [
+    "aws",
+    "lambda",
+    "gulp"
+  ],
+  "author": "Eric Abouaf <eric.abouaf@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/neyric/swf-lambda-decider-gulp-tasks/issues"
+  },
+  "dependencies": {
+    "aws-lambda-gulp-tasks": "^1.0.1",
+    "aws-sdk": "^2.1.45",
+    "gulp": "^3.9.0"
+  }
+}
